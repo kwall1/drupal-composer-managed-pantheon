@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "345f3631aad288491914b9b2c3d19004",
+    "content-hash": "e7504494ef53caaf3230c78b1e6a1888",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2261,6 +2261,52 @@
             "homepage": "https://www.drupal.org/project/search_api_stats",
             "support": {
                 "source": "https://git.drupalcode.org/project/search_api_stats"
+            }
+        },
+        {
+            "name": "drupal/search_overrides",
+            "version": "2.1.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/search_overrides.git",
+                "reference": "2.1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/search_overrides-2.1.0-rc1.zip",
+                "reference": "2.1.0-rc1",
+                "shasum": "e3d780c87adc2623fe64ae49f6b84494af32534c"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10",
+                "drupal/search_api": "*",
+                "drupal/search_api_solr": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.0-rc1",
+                    "datestamp": "1687271288",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
+                }
+            ],
+            "description": "Provides an interface to manually elevate or exclude nodes in results from Solr.",
+            "homepage": "https://www.drupal.org/project/search_overrides",
+            "support": {
+                "source": "https://git.drupalcode.org/project/search_overrides"
             }
         },
         {
@@ -11938,7 +11984,8 @@
         "drupal/openai": 15,
         "drupal/search_api_ai": 15,
         "drupal/search_api_stats": 15,
-        "drupal/advanced_search": 10
+        "drupal/advanced_search": 10,
+        "drupal/search_overrides": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,

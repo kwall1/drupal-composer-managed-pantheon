@@ -30,7 +30,8 @@
         "drupal/search_api_spellcheck": "^4.0",
         "drupal/search_api_stats": "^1.0@alpha",
         "drupal/advanced_search": "^2.0@beta",
-        "drupal/search_api_pantheon": "^8"
+        "drupal/search_api_pantheon": "^8",
+        "drupal/search_overrides": "^2.1@RC"
     },
     "require-dev": {
         "drupal/core-dev": "^10"
