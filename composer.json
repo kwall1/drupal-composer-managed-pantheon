@@ -32,7 +32,8 @@
         "drupal/advanced_search": "^2.0@beta",
         "drupal/search_api_pantheon": "^8",
         "drupal/search_overrides": "^2.1@RC",
-        "drupal/entity_update": "^3.0"
+        "drupal/entity_update": "^3.0",
+        "drupal/devel_entity_updates": "^4.1"
     },
     "require-dev": {
         "drupal/core-dev": "^10"
