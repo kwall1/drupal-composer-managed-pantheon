@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e59da193390bc5944b1ae263a67adc43",
+    "content-hash": "8706c4606ce7cb51a7f2c0222c052ccb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3309,6 +3309,64 @@
             "time": "2021-09-22T16:57:06+00:00"
         },
         {
+            "name": "probots-io/pinecone-php",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/probots-io/pinecone-php.git",
+                "reference": "cc469cbb66cf77feb0660db8538f6a80142606d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/probots-io/pinecone-php/zipball/cc469cbb66cf77feb0660db8538f6a80142606d1",
+                "reference": "cc469cbb66cf77feb0660db8538f6a80142606d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "sammyjo20/saloon": "^2.5"
+            },
+            "require-dev": {
+                "pestphp/pest": "^2.4",
+                "pestphp/pest-plugin-faker": "^2.0",
+                "pestphp/pest-plugin-watch": "^2.0",
+                "phpstan/phpstan": "^1.10",
+                "symfony/var-dumper": "^6.2",
+                "vlucas/phpdotenv": "^5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tests\\": "tests/",
+                    "Probots\\Pinecone\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Pohorely",
+                    "email": "marcus@probots.io"
+                }
+            ],
+            "description": "Unofficial PHP Client for Pinecone Vector Database (pinecone.io)",
+            "homepage": "https://probots.io",
+            "keywords": [
+                "client",
+                "database",
+                "pinecone",
+                "sdk",
+                "vector"
+            ],
+            "support": {
+                "issues": "https://github.com/probots-io/pinecone-php/issues",
+                "source": "https://github.com/probots-io/pinecone-php/tree/0.0.3"
+            },
+            "time": "2023-04-19T15:15:22+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "3.0.0",
             "source": {
@@ -3789,6 +3847,83 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "sammyjo20/saloon",
+            "version": "v2.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/saloonphp/saloon.git",
+                "reference": "09fffb14e23933a86e96db161834878cfeeed7b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/saloonphp/saloon/zipball/09fffb14e23933a86e96db161834878cfeeed7b1",
+                "reference": "09fffb14e23933a86e96db161834878cfeeed7b1",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.5",
+                "guzzlehttp/promises": "^1.5 || ^2.0",
+                "php": "^8.1",
+                "psr/http-message": "^1.1 || ^2.0"
+            },
+            "require-dev": {
+                "ext-simplexml": "*",
+                "friendsofphp/php-cs-fixer": "^3.5",
+                "illuminate/collections": "^9.39 || ^10.0",
+                "league/flysystem": "^3.0",
+                "pestphp/pest": "^2.2.3",
+                "phpstan/phpstan": "^1.9",
+                "spatie/ray": "^1.33",
+                "symfony/dom-crawler": "^6.0"
+            },
+            "suggest": {
+                "illuminate/collections": "Required for the response collect() method.",
+                "symfony/dom-crawler": "Required for the response dom() method."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Saloon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sam Carré",
+                    "email": "29132017+Sammyjo20@users.noreply.github.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Build beautiful API integrations and SDKs with Saloon",
+            "homepage": "https://github.com/saloonphp/saloon",
+            "keywords": [
+                "api",
+                "api-integrations",
+                "saloon",
+                "sammyjo20",
+                "sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/saloonphp/saloon/issues",
+                "source": "https://github.com/saloonphp/saloon/tree/v2.9.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sammyjo20",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/sammyjo20",
+                    "type": "ko_fi"
+                }
+            ],
+            "abandoned": "saloonphp/saloon",
+            "time": "2023-08-10T17:58:08+00:00"
         },
         {
             "name": "sebastian/diff",
