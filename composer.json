@@ -24,7 +24,8 @@
         "drupal/core-project-message": "^10",
         "drupal/openai": "^1.0@alpha",
         "drupal/search_api_ai": "^1.0@alpha",
-        "probots-io/pinecone-php": "^0.0.3"
+        "probots-io/pinecone-php": "^0.0.3",
+        "drupal/search_api_solr": "^4.2"
     },
     "require-dev": {
         "drupal/core-dev": "^10"
