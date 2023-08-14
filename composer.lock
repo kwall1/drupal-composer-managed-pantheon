@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7504494ef53caaf3230c78b1e6a1888",
+    "content-hash": "d373b4379049d1cacb4362997dd4aa88",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1671,17 +1671,11 @@
         },
         {
             "name": "drupal/openai",
-            "version": "1.0.0-alpha14",
+            "version": "dev-1.0.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/openai.git",
-                "reference": "1.0.0-alpha14"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/openai-1.0.0-alpha14.zip",
-                "reference": "1.0.0-alpha14",
-                "shasum": "2ff80800de358d5818623ccd1825009324264066"
+                "reference": "1edc44f19940d6a43d876968ccdca72aa79ebc36"
             },
             "require": {
                 "drupal/core": "^10",
@@ -1692,12 +1686,15 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
                 "drupal": {
-                    "version": "1.0.0-alpha14",
-                    "datestamp": "1686928727",
+                    "version": "1.0.0-alpha13+3-dev",
+                    "datestamp": "1686928413",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -11981,7 +11978,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "pantheon-upstreams/upstream-configuration": 20,
-        "drupal/openai": 15,
+        "drupal/openai": 20,
         "drupal/search_api_ai": 15,
         "drupal/search_api_stats": 15,
         "drupal/advanced_search": 10,
