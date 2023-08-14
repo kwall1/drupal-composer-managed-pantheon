@@ -28,7 +28,8 @@
         "drupal/search_api_solr": "^4.2",
         "drupal/search_api_autocomplete": "^1.7",
         "drupal/search_api_spellcheck": "^4.0",
-        "drupal/search_api_stats": "^1.0@alpha"
+        "drupal/search_api_stats": "^1.0@alpha",
+        "drupal/advanced_search": "^2.0@beta"
     },
     "require-dev": {
         "drupal/core-dev": "^10"
