@@ -21,7 +21,9 @@
         "pantheon-systems/drupal-integrations": "^9",
         "cweagans/composer-patches": "^1.7",
         "drush/drush": "^12",
-        "drupal/core-project-message": "^10"
+        "drupal/core-project-message": "^10",
+        "drupal/openai": "^1.0@alpha",
+        "drupal/search_api_ai": "^1.0@alpha"
     },
     "require-dev": {
         "drupal/core-dev": "^10"
@@ -80,7 +82,8 @@
             "drupal/core-composer-scaffold": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "phpstan/extension-installer": true,
-            "drupal/core-project-message": true
+            "drupal/core-project-message": true,
+            "php-http/discovery": true
         }
     }
 }
