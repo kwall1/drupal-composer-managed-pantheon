@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae005a8934cafc46ad4dc5d3bd7f22b5",
+    "content-hash": "dedff9c4e140b9800befe7d4e247df2a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2208,6 +2208,51 @@
             ],
             "support": {
                 "source": "https://git.drupalcode.org/project/openai"
+            }
+        },
+        {
+            "name": "drupal/openai_images",
+            "version": "dev-1.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/openai_images.git",
+                "reference": "af93dd1ee7162c1fc17bfa57273329b256ef2826"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.x-dev",
+                    "datestamp": "1685201769",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Joao Silva",
+                    "homepage": "https://www.drupal.org/user/3528448"
+                },
+                {
+                    "name": "nsalves",
+                    "homepage": "https://www.drupal.org/user/3557178"
+                }
+            ],
+            "description": "Provides AI generated images for media from open AI API.",
+            "homepage": "https://www.drupal.org/project/openai_images",
+            "support": {
+                "source": "https://git.drupalcode.org/project/openai_images"
             }
         },
         {
@@ -12456,7 +12501,8 @@
         "drupal/search_api_solr": 15,
         "drupal/search_api_stats": 15,
         "drupal/advanced_search": 10,
-        "drupal/search_overrides": 5
+        "drupal/search_overrides": 5,
+        "drupal/openai_images": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
